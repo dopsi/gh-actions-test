@@ -6,7 +6,7 @@ def bar():
     print(sys.argv, os.getcwd())
 
 def baz() -> int:
-    print("baz")
+    print("this is function baz")
 
 def zab() -> int:
     return math.pi
