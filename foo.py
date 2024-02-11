@@ -21,7 +21,7 @@ def zab() -> float:
 
 
 def rab() -> float:
-    return 1
+    return None
 
 if __name__ == "__main__":
     bar()
