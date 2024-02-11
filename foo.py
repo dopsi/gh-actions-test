@@ -1,4 +1,8 @@
 import sys
 import os
 
-print(sys.argv, os.getcwd())
+def bar():
+    print(sys.argv, os.getcwd())
+
+if __name__ == "__main__":
+    bar()
