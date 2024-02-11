@@ -10,9 +10,10 @@ def bar():
 
 def baz() -> int:
     print("this is function baz")
+    return 0
 
 
-def zab() -> int:
+def zab() -> float:
     return math.pi
 
 
