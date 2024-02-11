@@ -20,5 +20,8 @@ def zab() -> float:
     return math.pi
 
 
+def rab() -> float:
+    return 1
+
 if __name__ == "__main__":
     bar()
