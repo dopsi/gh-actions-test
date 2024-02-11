@@ -1,11 +1,12 @@
 """Test module."""
 import math
 import os
+from pathlib import Path
 import sys
 
 
 def bar():
-    print(sys.argv, os.getcwd())
+    print(sys.argv, Path.cwd())
 
 
 def baz() -> int:
