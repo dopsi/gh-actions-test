@@ -1,20 +1,22 @@
 """Test module."""
 import math
-import os
-from pathlib import Path
 import sys
+from pathlib import Path
 
 
 def bar():
-    print(sys.argv, Path.cwd())
+    """Print some information."""
+    print(sys.argv, Path.cwd())  # noqa: T201
 
 
 def baz() -> int:
-    print("this is function baz")
+    """Print message and return 0."""
+    print("this is function baz")  # noqa: T201
     return 0
 
 
 def zab() -> float:
+    """Return math.pi."""
     return math.pi
 
 
